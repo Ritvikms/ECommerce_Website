@@ -7,9 +7,9 @@
  USE `sportscenter` ;
 
  -- Drop existing tables if they exist
+ DROP TABLE IF EXISTS Type;
  DROP TABLE IF EXISTS Product;
  DROP TABLE IF EXISTS Brand;
- DROP TABLE IF EXISTS Type;
 
  -- Create the Brand table
  CREATE TABLE `Brand` (

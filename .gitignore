@@ -1,0 +1,42 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+# Steps
+creating folder structure -
+packages-controller,entity,model,service,repositoy
+directory- docker
+files under docker-data.sql, docker-compose.yml
+sports-center database is correctly initialized, and the tables (Brand, Product, Type) have been created. This confirms that the data.sql file was executed successfully, and the database is ready for use.
+Implemented Specification pattern
